@@ -18,7 +18,7 @@ Project Status
 
 The project is relatively simple thanks largely to the great [three.js](http://threejs.org) project. I have worked a little on the mechanism that creates the unique urls, (wordless) ui work for snapshots and other functions, and some steps toward authenticating for editing (via a different url) and some other features.
 
-![image of current version](http://3d.sito.org/grab.png)
+![image of current version](https://raw.githubusercontent.com/naknomum/3d-presenter/master/grab.png)
 
 At this point, I do not have time to pursue the project and thus am putting it on github if anyone is interested.  There are still challenges to solve (security considerations, bugs, etc.), but the results so far have been encouraging to me.  It seems with the proliferation of 3D design, a site for _displaying_ works (as opposed to trading the source files, like _thingiverse_ etc.) in a simple way might be useful.
 
