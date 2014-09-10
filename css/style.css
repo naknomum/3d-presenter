@@ -1,0 +1,257 @@
+
+body {
+	padding: 0;
+	margin: 0;
+	font-family: arial, sans, helvetica;
+	background-color: #DDE;
+}
+
+#drawCanvas {
+display: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+xopacity: 0.2;
+}
+
+
+div#snapshotPreview {
+	position: absolute;
+	top: 10px;
+	left: 100px;
+}
+
+div#snapshotPreview img {
+	border: solid 4px rgba(128, 128, 128, 0.5);
+	max-width: 300px;
+}
+
+.ui {
+	border: 2px solid #888;
+	border-radius: 8px;
+	background-color: #FFF;
+	padding: 10px;
+	margin: 2px;
+	opacity: 0.3;
+}
+
+.ui:hover {
+	opacity: 1.0;
+}
+
+#ui-help-wrapper {
+	display: none;
+	position: absolute;
+	top: 20px;
+	left: 20px;
+}
+
+#ui-tools-wrapper {
+	display: none;
+	position: absolute;
+	width: 200px;
+	top: 20px;
+	right: 20px;
+}
+
+#ui-tools-icon {
+	text-align: center;
+/*
+	width: 30px;
+	height: 20px;
+*/
+}
+
+.bgbutton {
+	width: 35px;
+	height: 35px;
+	margin: 3px;
+	border: solid #333 2px;
+	display: inline-block;
+	cursor: pointer;
+}
+
+
+#ui-help-icon {
+	text-align: center;
+/*
+	width: 20px;
+	height: 20px;
+*/
+}
+
+.ui-toggle-tiny, .ui-toggle-big {
+	position: absolute;
+}
+
+.ui-toggle-ul .ui-toggle-tiny, .ui-toggle-ul .ui-toggle-big {
+	left: 0;
+	top: 0;
+}
+
+.ui-toggle-ur .ui-toggle-tiny, .ui-toggle-ur .ui-toggle-big {
+	right: 0;
+	top: 0;
+}
+
+
+
+.ui-toggle-big {
+	opacity: 1.0;
+	display: none;
+}
+
+.ui-toggle:hover .ui-toggle-big {
+	display: block;
+}
+
+
+
+#busy {
+	width: 100%;
+	height: 100%;
+	background: rgba(20,20,20,0.3) url(/img/gears2.gif) center 40% no-repeat;
+	overflow: hidden;
+	z-index: 3000;
+}
+
+
+span.icon {
+	width: 28px;
+	height: 28px;
+	background-position: center center;
+	background-repeat: no-repeat;
+	display: inline-block;
+	margin: 0 3px 0 3px;
+}
+
+span.icon-save {
+	background-image: url(/img/icons/save.png);
+}
+
+span.icon-save-ok {
+	background-image: url(/img/icons/cloud-check.png);
+}
+
+span.icon-clock {
+	background-image: url(/img/icons/clock.png);
+}
+
+span.icon-cloud-error {
+	background-image: url(/img/icons/cloud-error.png);
+}
+
+span.icon-key {
+	background-image: url(/img/icons/key.png);
+}
+
+span.icon-img {
+	background-image: url(/img/icons/img.png);
+}
+
+span.icon-help {
+	background-image: url(/img/icons/help.png);
+}
+
+span.icon-tools {
+	background-image: url(/img/icons/tools.png);
+}
+
+.button {
+	background-color: #DDD;
+	border-radius: 3px;
+	cursor: pointer;
+}
+
+.button:hover {
+	background-color: #CC8;
+}
+
+#ui-save-wrapper {
+	position: absolute;
+	bottom: 20px;
+	right: 20px;
+	display: none;
+}
+
+#ui-save-wrapper .url {
+	font-size: 0.7em;
+	line-height: 0.9em;
+}
+
+.url {
+	float: right;
+	margin-top: 8px;
+}
+
+#ui-save-wrapper .inactive {
+	color: #888;
+}
+
+
+#ui-messages {
+	position: absolute;
+	left: 20px;
+	bottom: 20px;
+}
+
+
+#upel {
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	opacity: 0;
+}
+
+#upel.active {
+/*
+	display: block;
+	background-color: blue;
+	opacity: 1;
+*/
+
+}
+
+
+#file-drop {
+	width: 200px;
+	height: 200px;
+	margin: 20px;
+	background-color: #49F;
+}
+
+a.icon-button {
+	border-radius: 4px;
+	width: 26px;
+	height: 26px;
+	background-color: rgba(255, 255, 255, 0.5);
+	border: solid 2px black;
+}
+
+a.download {
+	background-image: url(/img/icons/download.png);
+	background-repeat: no-repeat;
+	background-position: 3px 3px;
+	position: absolute;
+	right: -10px;
+	bottom: -10px;
+}
+
+
+.download-info {
+	position: absolute;
+	left: 8px;
+	bottom: 6px;
+	font-size: 0.6em;
+	padding: 0 4px 0 4px;
+	background-color: #FFF;
+	opacity: 0.5;
+}
+
+
+
