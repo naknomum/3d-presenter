@@ -109,7 +109,7 @@ sub getData {
 
 
 sub saveJSON {
-return { error => 'saving disabled' };
+	#return { error => 'saving disabled' };
 	my $data = from_json(shift);  #TODO trap errors
 #warn Dumper($data);
 
